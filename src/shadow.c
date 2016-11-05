@@ -242,7 +242,7 @@ static void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
 
   //new york START
   NY_time = tick_time;
-  NY_time->tm_hour += 10;  // might need to adjust values
+  NY_time->tm_hour += 17;  // might need to adjust values
   if (NY_time->tm_hour > 23) {
    NY_time->tm_hour -= 24;
   }  
